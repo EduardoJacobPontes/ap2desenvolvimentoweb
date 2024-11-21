@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+  background-color: #1d1c1c; /* Cor de fundo cinza claro */
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Roboto', sans-serif;
+  color: #1d1c1c; /* Texto da pagina de login com cor cinza */
+  margin-bottom: 1rem;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main form{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+}
+
+.inputfield{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.inputfield input{
+  border: none;
+  outline: none;
+  background: none;
+  color: #333;
+  font: 400 1rem Roboto, sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  padding: 5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color:grey;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu input{
+  text-decoration: none;
+  color: #ffffff;
+  font: 400 1rem Roboto, sans-serif;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ffffff; /* Borda para inserir a senha coloquei cor branca */
+  border-radius: 5px;
+}
+
+.menu input:hover{
+  color: #4e4e4e;
+}
+
+button{
+  background: #444343; /* Cor de fundo vermelho fogo */
+  color: white;
+  font: 400 1rem Roboto, sans-serif;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover{
+  background: #5c5b5b;
+}
+
+#mensagem{
+  color: #ec3333;
+  font: 400 1rem Roboto, sans-serif;  /* aqui coloquei a mensagem 'senha incorreta' da cor vermelha */
+}
+
+@media (max-width: 768px) {
+  .container{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px){
+  .menu input{
+    font-size: 1rem; /* Ajuste de font para telas pequenas */
+  }
+
+  button{
+    font-size: 1rem; /* Botões menores */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Para telas maiores, ajustamos o número de colunas no container */
+  .container{
+    flex-direction: row;
+  }
+}
