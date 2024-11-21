@@ -87,7 +87,7 @@ main form{
 }
 
 button{
-  background: #444343; /* Cor de fundo vermelho fogo */
+  background: #444343; 
   color: white;
   font: 400 1rem Roboto, sans-serif;
   padding: 0.5rem 1rem;
@@ -123,7 +123,7 @@ button:hover{
 }
 
 @media (min-width: 1024px) {
-  /* Para telas maiores, ajustamos o número de colunas no container */
+  /* Ajuste para telas maioresr */
   .container{
     flex-direction: row;
   }
