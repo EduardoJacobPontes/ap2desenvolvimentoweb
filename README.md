@@ -45,7 +45,7 @@ Sua solução deve estar publicada no githubPages e emular o compartamento da p�
 
 
 ### PAGINA DO SITE PUBLICADA NO GITHUBPAGES
--LINK: 
+-LINK: https://eduardojacobpontes.github.io/ap2desenvolvimentoweb/
 
 
 
