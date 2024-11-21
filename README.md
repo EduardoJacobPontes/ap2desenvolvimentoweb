@@ -39,4 +39,19 @@ não é obrigatório usar URL personalizada, mas se quiser pode 😎
   select até 768px;
   botões para viewports maiores que 768px;
 # # Página de exemplo:
-Sua solução deve estar publicada no githubPages e emular o compartamento da página: https://p2-2024-2-desweb.mange.li/
+Sua solução deve estar publicada no githubPages e emular o compartamento da página: https://p2-2024-2-desweb.mange.li/       
+
+
+
+
+### PAGINA DO SITE PUBLICADA NO GITHUBPAGES
+-LINK: 
+
+
+
+
+
+
+
+
+
